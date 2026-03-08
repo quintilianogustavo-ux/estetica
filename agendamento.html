@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Agendamento</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<a href="index.html">⬅ Voltar</a>
+<h1>Agendamento</h1>
+<div class="agendamento-container">
+
+<div class="agendamento-img">
+<img src="./imagens/imagem2.jpg" alt="Agendamento">
+</div>
+
+<form>
+
+<label>Nome</label>
+<input type="text" required>
+
+<label>Telefone</label>
+<input type="tel" required>
+
+<label>Data</label>
+<input type="date" required>
+
+<label>Horário</label>
+<input type="time" required>
+
+<label>Modelo do Carro</label>
+<input type="text" required>
+
+<label>Serviço:</label>
+
+<select>
+
+<option>Polimento</option>
+<option>Enceramento</option>
+<option>Higienização Interna</option>
+<option>Vitrificação</option>
+<option>Cristalização da Pintura</option>
+<option>Estética de Rodas e Pneus</option>
+<option>Suporte técnico</option>
+<option>Manutenção</option>
+<option>Consultoria</option>
+<option>Instalação</option>
+<option>Lavagem completa</option>
+
+</select>
+
+<button type="button" onclick="confirmarAgendamento()">Confirmar Agendamento</button>
+
+</form>
+
+</div>
+
+<script>
+function confirmarAgendamento() {
+alert("Agendamento realizado com sucesso ✔️!");
+window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
