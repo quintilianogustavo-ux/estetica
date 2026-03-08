@@ -1,0 +1,169 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+/* HEADER */
+
+header{
+    background:#111;
+    color:white;
+    padding:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:20px;
+}
+
+.logo{
+    width:60px;
+    height:60px;
+    background:#00c3ff;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+}
+
+.titulo{
+    text-align:left;
+}
+
+/* MENU */
+
+nav{
+    background:#333;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00c3ff;
+}
+
+/* SEÇÕES */
+
+section{
+    padding:30px;
+    max-width:900px;
+    margin:auto;
+}
+
+/* IMAGENS PADRÃO */
+
+img{
+    width:80%;
+    max-width:600px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+/* QUEM SOMOS - TEXTO E IMAGEM LADO A LADO */
+
+.sobre-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    text-align:left;
+    flex-wrap:wrap;
+}
+
+.sobre-texto{
+    flex:1;
+    min-width:250px;
+}
+
+.sobre-img{
+    flex:1;
+    text-align:center;
+}
+
+.sobre-img img{
+    width:100%;
+    max-width:350px;
+    margin:0;
+}
+
+/* FORMULÁRIO */
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin:auto;
+    gap:10px;
+}
+
+input, select{
+    padding:8px;
+}
+
+button{
+    padding:10px;
+    background:#00c3ff;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0099cc;
+}
+
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* MENSAGEM DE SUCESSO */
+
+.mensagem{
+    background:#d4edda;
+    color:#155724;
+    padding:15px;
+    margin:20px;
+    font-weight:bold;
+    border-radius:5px;
+}
+/* PAGINA DE AGENDAMENTO */
+
+.agendamento-container{
+display:flex;
+flex-direction:row-reverse;
+align-items:center;
+justify-content:center;
+gap:40px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.agendamento-img img{
+width:400px;
+max-width:100%;
+border-radius:10px;
+}
+
+.agendamento-container form{
+margin:0;
+}
