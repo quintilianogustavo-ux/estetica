@@ -146,3 +146,29 @@ footer{
     font-weight:bold;
     border-radius:5px;
 }
+/* PAGINA DE AGENDAMENTO */
+
+.agendamento-container{
+display:flex;
+flex-direction:row-reverse;
+align-items:center;
+justify-content:center;
+gap:40px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.agendamento-img img{
+width:400px;
+max-width:100%;
+border-radius:10px;
+}
+
+.agendamento-container form{
+margin:0;
+}
+    padding:15px;
+    margin:20px;
+    font-weight:bold;
+    border-radius:5px;
+}
